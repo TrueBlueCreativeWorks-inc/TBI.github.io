@@ -57,7 +57,7 @@ ul {
 
 .is_Offline {
     padding: 2px;
-    font-size: 2vw 1fr;
+    font-size: 2vw;
     border-radius: 28px;
     border: 2px solid red;
     box-shadow: 4px 4px 8px red, 0 0 25px red, 0 0 5px red;
@@ -67,7 +67,7 @@ ul {
 
 .is_UnderConstruction {
     padding: 2px;
-    font-size: 2vw 1fr;
+    font-size: 1rem;
     border-radius: 28px;
     overflow: hidden;
     box-shadow: 4px 4px 8px orange, 0 0 25px orange, 0 0 5px orange;
@@ -77,7 +77,7 @@ ul {
 
 .is_Online {
     padding: 2px;
-    font-size: 2vw 1fr;
+    font-size: 2vw;
     border-radius: 28px;
     box-shadow: 4px 4px 8px lime, 0 0 25px lime, 0 0 5px lime;
     text-shadow: 4px 4px 8px lime, 0 0 25px lime, 0 0 5px lime;
@@ -86,7 +86,7 @@ ul {
 
 .is_ComingSoon {
     padding: 2px;
-    font-size: 2vw 1fr;
+    font-size: auto;
     border-radius: 28px;
     box-shadow: 4px 4px 8px aqua, 0 0 25px aqua, 0 0 5px aqua;
     text-shadow: 4px 4px 8px aqua, 0 0 25px aqua, 0 0 5px aqua;
@@ -246,11 +246,10 @@ ul {
 
 
 /* Navbar links */
-
 #navbar button.link {
     background-color: #222;
-    border: none;
-    outline: none;
+    border: 1px solid #444;
+    outline:none;
     cursor: pointer;
     display: block;
     color: #f2f2f2;
@@ -266,6 +265,7 @@ ul {
 
 #navbar button.link:hover {
     /*border-left: 4px solid aqua;*/
+    border:1px solid rgb(0, 132, 255);
     text-shadow: 0px 0px 4px aqua, 0 0 8px blue, 0 0 16px violet;
 
 }
@@ -318,16 +318,7 @@ font-size: 3vw;
     float: left;
 }
 
-#navbar button {
-    background-color: #555;
-    transition: 0.5s;
-}
 
-#navbar button:hover {
-    border-left: 4px solid aqua;
-    background-color: #777;
-    transition: 0.5s;
-}
 
 
 /* Page content */
@@ -395,7 +386,7 @@ font-size: 3vw;
     transition: 0.3s;
 }
 .sidenav .link{
-border: 1px solid rgb(0, 132, 255);
+border: 1px solid #444;
 }
 /* When you mouse over the navigation links, change their color */
 
@@ -403,7 +394,8 @@ border: 1px solid rgb(0, 132, 255);
     color: skyblue;
     /*border-left: 4px solid aqua;*/
     box-shadow: 0px 0px 4px aqua, 0 0 8px blue, 0 0 16px violet;
-    
+    border: 1px solid rgb(0, 132, 255);
+
     transition: 0.3s;
 }
 

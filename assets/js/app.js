@@ -36,12 +36,12 @@ function openPage(pageName,elmnt,color) {
 	for (i = 0; i < tablinks.length; i++) {
 		
 		tablinks[i].style.boxShadow = "";
-		//tablinks[i].style.borderLeft = "";
+		tablinks[i].style.borderLeft = "4px solid #444";
 		tablinks[i].style.textShadow = "";
 		tablinks[i].style.color = "";
     }
     document.getElementById(pageName).style.display = "block";
-	//elmnt.style.borderLeft = "4px solid aqua";
+	elmnt.style.borderLeft = "4px solid skyblue";
 	elmnt.style.textShadow = "0px 0px 4px aqua, 0 0 8px blue, 0 0 16px violet";
 	elmnt.style.boxShadow = "0px 0px 4px aqua, 0 0 8px blue, 0 0 16px violet";
 	elmnt.style.color = color;
